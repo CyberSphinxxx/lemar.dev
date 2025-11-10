@@ -176,7 +176,7 @@
       }
     },
     {
-      "name": "Magic Garden Farm Bot",
+      "name": "Magic Garden Bot",
       "isActive": true,
       "description": "An automated Python Discord game bot using OpenCV, pynput, numpy, and pyautogui with GUI and statistics tracking.",
       "highlights": [],
@@ -187,7 +187,19 @@
       }
     },
     {
-      "name": "Albion Online Object Detector",
+      "name": "OtakuVerse",
+      "isActive": true,
+      "description": "OtakuVerse, your ultimate anime companion! Search for your favorite anime, add them to your watchlist, and dive into a world of memes, waifus, and more!",
+      "highlights": [],
+      "url": "otaku-verse-ebon.vercel.app",
+      "stack": {
+        "HTML": "simple-icons:html5",
+        "CSS": "simple-icons:css3",
+        "Javascript": "simple-icons:javascript"
+      }
+    },
+    {
+      "name": "AO Object Detector",
       "isActive": true,
       "description": "Python app that performs real-time object detection using Ultralytics YOLO with Tkinter GUI and multi-monitor selection.",
       "highlights": [],
