@@ -29,7 +29,6 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "src/lib"
+    "node_modules"
   ]
 }

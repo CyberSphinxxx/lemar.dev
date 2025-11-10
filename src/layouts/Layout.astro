@@ -3,6 +3,7 @@ import '../globals.css';
 import CV from "@cv";
 import Analytics from '@vercel/analytics/astro';
 import BackgroundArt from "../components/BackgroundArt.astro"
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   title: string;
@@ -148,11 +149,58 @@ const breadcrumbSchema = {
     <meta name="google-site-verification" content="oi4G-5FCwNn5m9MvSyjyBxVatgwi8KT_KtVuC9Pckmg" />
   </head>
   <body class="relative bg-skin-fill font-sans">
+    <button id="theme-toggle" class="theme-toggle-button">
+      <Icon name="ri:sun-line" class="w-6 h-6" id="theme-toggle-icon" />
+    </button>
     <slot />
     <script src="../scripts/main.ts"></script>
     <BackgroundArt/>
   </body>
 </html>
+
+<script>
+  const themeToggleButton = document.getElementById('theme-toggle');
+  const themeToggleIcon = document.getElementById('theme-toggle-icon');
+
+  // Function to update the theme
+  function updateTheme(theme) {
+    document.documentElement.classList.remove('light', 'dark');
+    document.documentElement.removeAttribute('data-theme'); // Ensure data-theme is removed
+    document.documentElement.classList.add(theme);
+    localStorage.setItem('theme', theme);
+
+    // Update the icon
+    if (themeToggleIcon) {
+      themeToggleIcon.setAttribute('name', theme === 'dark' ? 'ri:moon-line' : 'ri:sun-line');
+    }
+  }
+
+  // Event listener for the theme toggle button
+  themeToggleButton.addEventListener('click', () => {
+    const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    updateTheme(newTheme);
+  });
+
+  // Set the initial theme on page load
+  const savedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = savedTheme || systemTheme;
+  updateTheme(initialTheme);
+
+  // Disable dark mode before printing
+  window.addEventListener('beforeprint', () => {
+    document.documentElement.classList.remove('dark');
+  });
+
+  // Restore dark mode after printing
+  window.addEventListener('afterprint', () => {
+    const currentTheme = localStorage.getItem('theme') || systemTheme;
+    if (currentTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  });
+</script>
 
 <style>
 

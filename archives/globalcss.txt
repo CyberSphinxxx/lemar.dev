@@ -104,17 +104,17 @@
   }
 
   .dark {
-    --color-text-base: 248, 250, 252;
-    --color-text-muted: 156, 163, 175;
-    --color-text-inverted: 31, 41, 55;
-    --color-fill: 17, 24, 39;
-    --muted: 55, 65, 81;
-    --color: 156, 163, 175;
-    --color-button-accent: 156, 163, 175;
-    --color-button-accent-hover: 209, 213, 219;
-    --color-button-muted: 31, 41, 55;
-    --color-nvim-blue: 129, 140, 248;
-    --color-nvim-green: 52, 211, 153;
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 150, 150, 150;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 18, 18, 18;
+    --muted: 36, 36, 36;
+    --color: 227, 77, 10;
+    --color-button-accent: 227, 77, 10;
+    --color-button-accent-hover: 231, 121, 43;
+    --color-button-muted: 26, 26, 26;
+    --color-nvim-blue: 95, 175, 215;
+    --color-nvim-green: 135, 215, 135;
 
     [data-theme="blue"] {
       --color-text-base: 248, 250, 252;
@@ -320,4 +320,40 @@ html, body {
   padding: 0.5rem;
   border-radius: 50%;
   color: rgb(var(--color-text-base));
+}
+
+.theme-dropdown {
+  position: relative;
+}
+
+.theme-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(var(--color-fill));
+  border: 1px solid rgb(var(--muted));
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  z-index: 10000;
+  min-width: 10rem;
+}
+
+.theme-menu.show {
+  display: block;
+}
+
+.theme-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  color: rgb(var(--color-text-base));
+  cursor: pointer;
+}
+
+.theme-menu button:hover {
+  background-color: rgb(var(--muted));
 }
