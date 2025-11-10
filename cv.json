@@ -1,0 +1,213 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "John Lemar Gonzales",
+    "label": "Full Stack Developer | Student Leader",
+    "animated_main_label": "developer",
+    "animated_secondary_initial_label": "student",
+    "animated_secondary_final_label": "leader",
+    "image": "/pfp.jpeg",
+    "email": "johnlemargonzales@gmail.com",
+    "url": "https://github.com/CyberSphinxxx/lemar.dev",
+    "summary": "Full Stack Developer and a Student Leader building real projects while continuously improving. Passionate about shipping solutions, exploring modern tech, and growing through hands-on experience and community involvement.",
+    "theme": "platinum",
+    "location": {
+      "address": "Cagayan de Oro City",
+      "city": "Cagayan de Oro",
+      "countryCode": "PH",
+      "region": "Philippines"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#929AAB",
+        "username": "CyberSphinxxx",
+        "url": "https://github.com/CyberSphinxxx"
+      },
+      {
+        "network": "Facebook",
+        "icon": "mdi:facebook",
+        "color": "#929AAB",
+        "username": "John Lemar Gonzales",
+        "url": "https://www.facebook.com/johnlemgonzales"
+      },
+      {
+        "network": "LinkedIn",
+        "icon": "mdi:linkedin",
+        "color": "#0A66C2",
+        "username": "john-lemar-gonzales",
+        "url": "https://www.linkedin.com/in/john-lemar-gonzales-28011b28b"
+      },
+      {
+        "network": "Email",
+        "icon": "ri:mail-fill",
+        "color": "#D44638",
+        "username": "johnlemargonzales",
+        "url": "mailto:johnlemargonzales@gmail.com"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "SITE (Society of Information Technology Enthusiasts)",
+      "position": "Technology Department Head / PROGVAR Head",
+      "url": "",
+      "location_type": "Hybrid",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2025-08-01",
+      "endDate": null,
+      "summary": "Leading the programming division (PROGVAR) of SITE and managing technical initiatives for university developer programs.",
+      "highlights": [
+        "Organized technical study sessions, workshops, and programming activities.",
+        "Managed developers assigned under PROGVAR division.",
+        "Guided tech stacks, coding standards, and project direction.",
+        "Collaborated with other SITE leaders for event coordination and technical strategy."
+      ]
+    },
+    {
+      "name": "Google Developer Groups on Campus USTP",
+      "position": "Information Technology Lead",
+      "url": "",
+      "location_type": "Hybrid",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "summary": "Oversees IT operations and project development within GDGoC USTP, supporting community events and technical workshops.",
+      "highlights": []
+    },
+    {
+      "name": "Google Developer Groups on Campus USTP",
+      "position": "Information Technology Ambassador",
+      "url": "",
+      "location_type": "Hybrid",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2023-09-01",
+      "endDate": "2024-09-01",
+      "summary": "Acted as a bridge between students and the GDGoC community, promoting developer technologies and assisting in events.",
+      "highlights": []
+    },
+    {
+      "name": "Boy Scouts of the Philippines",
+      "position": "Senior Crew Leader",
+      "url": "",
+      "location_type": "Onsite",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2018-06-01",
+      "endDate": null,
+      "summary": "Guided and mentored a team of scouts, fostering growth, teamwork, and leadership skills while leading community initiatives.",
+      "highlights": []
+    }
+  ],
+
+  "education": [],
+  "certificates": [],
+
+  "skills": [
+    { "name": "HTML", "icon": "simple-icons:html5", "level": "Advanced", "keywords": ["Frontend", "Web Development"] },
+    { "name": "CSS", "icon": "ri:css3-fill", "level": "Advanced", "keywords": ["Frontend", "Web Design", "Responsive Design"] },
+    { "name": "JavaScript", "icon": "simple-icons:javascript", "level": "Advanced", "keywords": ["Frontend", "Backend", "Web Apps"] },
+    { "name": "TypeScript", "icon": "simple-icons:typescript", "level": "Intermediate", "keywords": ["Frontend", "Backend", "Web Development"] },
+    { "name": "Python", "icon": "simple-icons:python", "level": "Advanced", "keywords": ["Backend", "Automation", "Computer Vision"] },
+    { "name": "C", "icon": "simple-icons:c", "level": "Intermediate", "keywords": ["Programming", "Systems"] },
+    { "name": "C++", "icon": "simple-icons:cplusplus", "level": "Intermediate", "keywords": ["Programming", "OOP"] },
+    { "name": "Java", "icon": "ri:java-line", "level": "Intermediate", "keywords": ["Backend", "OOP"] },
+    { "name": "PHP", "icon": "simple-icons:php", "level": "Intermediate", "keywords": ["Backend", "Web Development"] },
+    { "name": "MySQL", "icon": "simple-icons:mysql", "level": "Intermediate", "keywords": ["Databases", "SQL"] },
+    { "name": "React", "icon": "simple-icons:react", "level": "Advanced", "keywords": ["Frontend", "Web Apps"] },
+    { "name": "Laravel", "icon": "simple-icons:laravel", "level": "Intermediate", "keywords": ["Backend", "PHP Framework"] },
+    { "name": "Docker", "icon": "mdi:docker", "level": "Intermediate", "keywords": ["DevOps", "Containers"] },
+    { "name": "Firebase", "icon": "simple-icons:firebase", "level": "Intermediate", "keywords": ["Backend", "Realtime", "Auth"] },
+    { "name": "Postman", "icon": "simple-icons:postman", "level": "Intermediate", "keywords": ["API Testing", "Web Development"] },
+    { "name": "Git", "icon": "mdi:git", "level": "Advanced", "keywords": ["Version Control", "Collaboration"] },
+    { "name": "GitHub", "icon": "mdi:github", "level": "Advanced", "keywords": ["Version Control", "Source Code"] },
+    { "name": "Vite", "icon": "simple-icons:vite", "level": "Intermediate", "keywords": ["Frontend", "Bundler"] },
+    { "name": "npm", "icon": "simple-icons:npm", "level": "Intermediate", "keywords": ["Package Manager", "Frontend"] },
+    { "name": "Linux", "icon": "simple-icons:linux", "level": "Intermediate", "keywords": ["OS", "Scripting", "Servers"] },
+    { "name": "Django", "icon": "simple-icons:django", "level": "Intermediate", "keywords": ["Backend", "Python Framework"] },
+    { "name": "OpenCV", "icon": "simple-icons:opencv", "level": "Intermediate", "keywords": ["Computer Vision", "Image Processing"] },
+    { "name": "Notion", "icon": "simple-icons:notion", "level": "Intermediate", "keywords": ["Productivity", "Planning"] },
+    { "name": "Figma", "icon": "simple-icons:figma", "level": "Intermediate", "keywords": ["Design", "UI/UX"] },
+    { "name": "Photoshop", "icon": "simple-icons:adobephotoshop", "level": "Intermediate", "keywords": ["Graphics", "Design"] },
+    { "name": "Premiere Pro", "icon": "simple-icons:adobepremierepro", "level": "Intermediate", "keywords": ["Video Editing"] },
+    { "name": "VSCode", "icon": "simple-icons:visualstudiocode", "level": "Advanced", "keywords": ["IDE", "Development"] },
+    { "name": "PyCharm", "icon": "simple-icons:pycharm", "level": "Intermediate", "keywords": ["IDE", "Python"] },
+    { "name": "IntelliJ IDEA", "icon": "simple-icons:intellijidea", "level": "Intermediate", "keywords": ["IDE", "Java"] },
+    { "name": "Unity", "icon": "simple-icons:unity", "level": "Intermediate", "keywords": ["Game Development", "C#"] },
+    { "name": "Unreal Engine", "icon": "simple-icons:unrealengine", "level": "Intermediate", "keywords": ["Game Development"] },
+    { "name": "Godot", "icon": "simple-icons:godotengine", "level": "Intermediate", "keywords": ["Game Development"] },
+    { "name": "WordPress", "icon": "simple-icons:wordpress", "level": "Intermediate", "keywords": ["CMS", "Web Development"] },
+    { "name": "Blender", "icon": "simple-icons:blender", "level": "Intermediate", "keywords": ["3D Modeling", "Design"] },
+    { "name": "Arduino", "icon": "simple-icons:arduino", "level": "Intermediate", "keywords": ["Electronics", "IoT"] },
+    { "name": "GitHub Actions", "icon": "simple-icons:githubactions", "level": "Intermediate", "keywords": ["CI/CD", "Automation"] },
+    { "name": "Vercel", "icon": "simple-icons:vercel", "level": "Intermediate", "keywords": ["Deployment", "Hosting"] }
+  ],
+
+  "languages": [
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "Tagalog", "fluency": "Native" },
+    { "language": "Bisaya", "fluency": "Native" }
+  ],
+
+  "projects": [
+    {
+      "name": "Anisekai",
+      "isActive": true,
+      "description": "Anime-inspired mobile app built with React Native + Expo Router, offering a sleek, immersive anime-themed UI/UX.",
+      "highlights": [],
+      "url": "https://github.com/MobileProgramming-USTP/Anisekai",
+      "stack": {
+        "React Native": "simple-icons:react",
+        "Expo": "simple-icons:expo",
+        "TypeScript": "simple-icons:typescript"
+      }
+    },
+    {
+      "name": "StudentHub",
+      "isActive": true,
+      "description": "A productivity-focused web app helping students manage academics through a dashboard, schedule, task system, and Pomodoro timer. Built with TypeScript, HTML, CSS, and JS.",
+      "highlights": [],
+      "url": "https://studenthub-ustp.vercel.app",
+      "stack": {
+        "TypeScript": "simple-icons:typescript",
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill"
+      }
+    },
+    {
+      "name": "Magic Garden Farm Bot",
+      "isActive": true,
+      "description": "An automated Python Discord game bot using OpenCV, pynput, numpy, and pyautogui with GUI and statistics tracking.",
+      "highlights": [],
+      "url": "https://github.com/CyberSphinxxx/Magic-Garden-Discord-Bot",
+      "stack": {
+        "Python": "simple-icons:python",
+        "OpenCV": "simple-icons:opencv"
+      }
+    },
+    {
+      "name": "Albion Online Object Detector",
+      "isActive": true,
+      "description": "Python app that performs real-time object detection using Ultralytics YOLO with Tkinter GUI and multi-monitor selection.",
+      "highlights": [],
+      "url": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
+      "stack": {
+        "Python": "simple-icons:python",
+        "YOLO": "simple-icons:yolo"
+      }
+    },
+    {
+      "name": "Coral Vision",
+      "isActive": true,
+      "description": "Django-based web app using YOLOv5 for real-time coral detection, classifying corals as healthy or bleached for research monitoring.",
+      "highlights": [],
+      "url": "https://github.com/USTP-CoralVision",
+      "stack": {
+        "Python": "simple-icons:python",
+        "Django": "simple-icons:django",
+        "YOLO": "simple-icons:yolo"
+      }
+    }
+  ]
+}

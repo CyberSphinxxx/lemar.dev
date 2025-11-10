@@ -1,13 +1,22 @@
 // @ts-check
-
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
-import { defineConfig } from 'astro/config';
-
-import react from '@astrojs/react';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+import astroIcon from 'astro-icon';
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://example.com',
-    integrations: [mdx(), sitemap(), react()],
+  integrations: [
+    tailwind(),
+    astroIcon({
+      include: {
+        mdi: ["*"],
+        ri: ['*'],
+        'simple-icons': ['*'],
+      },
+    }),
+  ],
+  output: 'server',
+  adapter: vercel(),
+  
 });
