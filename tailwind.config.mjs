@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 import daisyui from "daisyui";
 import scrollbar from "tailwind-scrollbar";
+import typography from "@tailwindcss/typography";
+import scrollbarhide from "tailwind-scrollbar-hide";
+
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -10,7 +13,7 @@ function withOpacity(variableName) {
   };
 }
 
-module.exports = {
+export default {
   darkMode: "class",
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
@@ -67,9 +70,9 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    typography,
     daisyui,
     scrollbar,
-    require('tailwind-scrollbar-hide'),
+    scrollbarhide,
   ],
 };
