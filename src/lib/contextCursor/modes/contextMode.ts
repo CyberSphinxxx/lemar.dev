@@ -1,3 +1,4 @@
+import type { CProps } from "../types";
 import { TweenLite } from "gsap";
 import { getMoveIndex, isElHasProperty, getStyleProp } from "../chunks";
 import propNames from "../propNames";
@@ -12,7 +13,7 @@ const contextMode = (
     target: props.parallaxIndex * 1.5,
   };
   let isHovered: boolean = false;
-  let cursorTarget: HTMLElement = null;
+  let cursorTarget: HTMLElement | null = null;
 
   const moveCursor = (e: MouseEvent) => {
     // If element is not hovered
@@ -23,6 +24,7 @@ const contextMode = (
       });
       // If eleemnt is hovered
     } else {
+      if (!cursorTarget) return;
       const borderRadius = Number(
         window.getComputedStyle(cursorTarget).borderRadius.slice(0, -2) as any
       );
@@ -70,7 +72,7 @@ const contextMode = (
           x:
             cursorTarget.getBoundingClientRect().left -
             (isElHasProperty(cursorTarget, propNames.noPadding)
-              ? null
+              ? 0
               : props.hoverPadding) +
             (isElHasProperty(cursorTarget, propNames.noParallax)
               ? 0
@@ -81,7 +83,7 @@ const contextMode = (
           y:
             cursorTarget.getBoundingClientRect().top -
             (isElHasProperty(cursorTarget, propNames.noPadding)
-              ? null
+              ? 0
               : props.hoverPadding) +
             (isElHasProperty(cursorTarget, propNames.noParallax)
               ? 0
@@ -95,12 +97,12 @@ const contextMode = (
           width:
             cursorTarget.clientWidth +
             (isElHasProperty(cursorTarget, propNames.noPadding)
-              ? null
+              ? 0
               : props.hoverPadding * 2),
           height:
             cursorTarget.clientHeight +
             (isElHasProperty(cursorTarget, propNames.noPadding)
-              ? null
+              ? 0
               : props.hoverPadding * 2),
         });
         // For "NO PARALLAX" property
@@ -159,6 +161,7 @@ const contextMode = (
       backgroundImage: "none",
       filter: "blur(0px)",
     });
+    if (!cursorTarget) return;
     TweenLite.to(cursorTarget, props.transitionSpeed, {
       x: 0,
       y: 0,
@@ -168,8 +171,8 @@ const contextMode = (
   };
 
   // Event listeners
-  document.addEventListener("mousewheel", (e: WheelEvent) => {
-    handleMouseOut(e);
+  document.addEventListener("wheel", (e: WheelEvent) => {
+    handleMouseOut(e as any);
   });
 
   document.addEventListener("mousemove", (e: MouseEvent) => {
@@ -177,15 +180,11 @@ const contextMode = (
   });
 
   interactElements.forEach((item) => {
-    item.addEventListener("mouseenter", (e: MouseEvent) => {
-      handleMouseOver(e);
-    });
+    (item as HTMLElement).addEventListener("mouseenter", handleMouseOver);
   });
 
   interactElements.forEach((item) => {
-    item.addEventListener("mouseleave", (e: MouseEvent) => {
-      handleMouseOut(e);
-    });
+    (item as HTMLElement).addEventListener("mouseleave", handleMouseOut);
   });
 };
 

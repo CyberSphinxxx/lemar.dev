@@ -48,7 +48,6 @@
       }
     ]
   },
-
   "work": [
     {
       "name": "SITE (Society of Information Technology Enthusiasts)",
@@ -59,12 +58,17 @@
       "startDate": "2025-08-01",
       "endDate": null,
       "summary": "Leading the programming division (PROGVAR) of SITE and managing technical initiatives for university developer programs.",
-      "highlights": [
+      "responsibilities": [
         "Organized technical study sessions, workshops, and programming activities.",
         "Managed developers assigned under PROGVAR division.",
         "Guided tech stacks, coding standards, and project direction.",
         "Collaborated with other SITE leaders for event coordination and technical strategy."
-      ]
+      ],
+      "skills": {
+        "JavaScript": "simple-icons:javascript",
+        "React": "simple-icons:react",
+        "Node.js": "simple-icons:nodedotjs"
+      }
     },
     {
       "name": "Google Developer Groups on Campus USTP",
@@ -75,7 +79,12 @@
       "startDate": "2024-09-01",
       "endDate": null,
       "summary": "Oversees IT operations and project development within GDGoC USTP, supporting community events and technical workshops.",
-      "highlights": []
+      "responsibilities": [],
+      "skills": {
+        "Firebase": "simple-icons:firebase",
+        "Docker": "mdi:docker",
+        "Python": "simple-icons:python"
+      }
     },
     {
       "name": "Google Developer Groups on Campus USTP",
@@ -86,7 +95,8 @@
       "startDate": "2023-09-01",
       "endDate": "2024-09-01",
       "summary": "Acted as a bridge between students and the GDGoC community, promoting developer technologies and assisting in events.",
-      "highlights": []
+      "responsibilities": [],
+      "skills": {}
     },
     {
       "name": "Boy Scouts of the Philippines",
@@ -97,13 +107,12 @@
       "startDate": "2018-06-01",
       "endDate": null,
       "summary": "Guided and mentored a team of scouts, fostering growth, teamwork, and leadership skills while leading community initiatives.",
-      "highlights": []
+      "responsibilities": [],
+      "skills": {}
     }
   ],
-
   "education": [],
   "certificates": [],
-
   "skills": [
     { "name": "HTML", "icon": "simple-icons:html5", "level": "Advanced", "keywords": ["Frontend", "Web Development"] },
     { "name": "CSS", "icon": "ri:css3-fill", "level": "Advanced", "keywords": ["Frontend", "Web Design", "Responsive Design"] },
@@ -143,20 +152,19 @@
     { "name": "GitHub Actions", "icon": "simple-icons:githubactions", "level": "Intermediate", "keywords": ["CI/CD", "Automation"] },
     { "name": "Vercel", "icon": "simple-icons:vercel", "level": "Intermediate", "keywords": ["Deployment", "Hosting"] }
   ],
-
   "languages": [
     { "language": "English", "fluency": "Fluent" },
     { "language": "Tagalog", "fluency": "Native" },
     { "language": "Bisaya", "fluency": "Native" }
   ],
-
-  "projects": [
+ "projects": [
     {
       "name": "Anisekai",
       "isActive": true,
       "description": "Anime-inspired mobile app built with React Native + Expo Router, offering a sleek, immersive anime-themed UI/UX.",
       "highlights": [],
       "url": "https://github.com/MobileProgramming-USTP/Anisekai",
+      "github": "https://github.com/MobileProgramming-USTP/Anisekai",
       "stack": {
         "React Native": "simple-icons:react",
         "Expo": "simple-icons:expo",
@@ -169,6 +177,7 @@
       "description": "A productivity-focused web app helping students manage academics through a dashboard, schedule, task system, and Pomodoro timer. Built with TypeScript, HTML, CSS, and JS.",
       "highlights": [],
       "url": "https://studenthub-ustp.vercel.app",
+      "github": "https://github.com/CyberSphinxxx/StudentHub",
       "stack": {
         "TypeScript": "simple-icons:typescript",
         "HTML": "simple-icons:html5",
@@ -181,6 +190,7 @@
       "description": "An automated Python Discord game bot using OpenCV, pynput, numpy, and pyautogui with GUI and statistics tracking.",
       "highlights": [],
       "url": "https://github.com/CyberSphinxxx/Magic-Garden-Discord-Bot",
+      "github": "https://github.com/CyberSphinxxx/Magic-Garden-Discord-Bot",
       "stack": {
         "Python": "simple-icons:python",
         "OpenCV": "simple-icons:opencv"
@@ -192,6 +202,7 @@
       "description": "OtakuVerse, your ultimate anime companion! Search for your favorite anime, add them to your watchlist, and dive into a world of memes, waifus, and more!",
       "highlights": [],
       "url": "otaku-verse-ebon.vercel.app",
+      "github": "https://github.com/CyberSphinxxx/OtakuVerse",
       "stack": {
         "HTML": "simple-icons:html5",
         "CSS": "simple-icons:css3",
@@ -204,6 +215,7 @@
       "description": "Python app that performs real-time object detection using Ultralytics YOLO with Tkinter GUI and multi-monitor selection.",
       "highlights": [],
       "url": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
+       "github": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
       "stack": {
         "Python": "simple-icons:python",
         "YOLO": "simple-icons:yolo"
@@ -215,6 +227,7 @@
       "description": "Django-based web app using YOLOv5 for real-time coral detection, classifying corals as healthy or bleached for research monitoring.",
       "highlights": [],
       "url": "https://github.com/USTP-CoralVision",
+      "github": "https://github.com/USTP-CoralVision",
       "stack": {
         "Python": "simple-icons:python",
         "Django": "simple-icons:django",

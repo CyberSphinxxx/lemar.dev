@@ -1,8 +1,8 @@
 interface CProps {
-  radius?: number;
-  transitionSpeed?: number;
-  parallaxIndex?: number;
-  hoverPadding?: number;
+  radius: number;
+  transitionSpeed: number;
+  parallaxIndex: number;
+  hoverPadding: number;
 }
 
 export { CProps };

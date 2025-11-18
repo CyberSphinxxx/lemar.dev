@@ -163,7 +163,7 @@ const breadcrumbSchema = {
   const themeToggleIcon = document.getElementById('theme-toggle-icon');
 
   // Function to update the theme
-  function updateTheme(theme) {
+  function updateTheme(theme: 'light' | 'dark') {
     document.documentElement.classList.remove('light', 'dark');
     document.documentElement.removeAttribute('data-theme'); // Ensure data-theme is removed
     document.documentElement.classList.add(theme);
@@ -176,16 +176,18 @@ const breadcrumbSchema = {
   }
 
   // Event listener for the theme toggle button
-  themeToggleButton.addEventListener('click', () => {
-    const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    updateTheme(newTheme);
-  });
+  if (themeToggleButton) {
+    themeToggleButton.addEventListener('click', () => {
+      const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      updateTheme(newTheme);
+    });
+  }
 
   // Set the initial theme on page load
   const savedTheme = localStorage.getItem('theme');
   const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  const initialTheme = savedTheme || systemTheme;
+  const initialTheme = (savedTheme === 'dark' || savedTheme === 'light') ? savedTheme : systemTheme;
   updateTheme(initialTheme);
 
   // Disable dark mode before printing
