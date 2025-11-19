@@ -1,13 +1,14 @@
-# Portfolio.dev
+# Lemar.dev Portfolio
 
-This is a personal portfolio website built with Astro, TypeScript, and Tailwind CSS. It features a unique Neovim-inspired theme and includes sections for About, Experience, Education, Skills, and Projects.
+This is a personal portfolio website built with Astro, TypeScript, and Tailwind CSS. It showcases my skills, experience, and projects in a clean and modern design.
 
 ## Features
 
-*   **Neovim-inspired theme:** A unique theme that mimics the look and feel of the Neovim editor.
-*   **Multiple Sections:** Includes sections for About, Experience, Education, Skills, and Projects.
-*   **Responsive Design:** The website is designed to be responsive and work on all devices.
-*   **Live CV:** The portfolio data is sourced from a `cv.json` file, making it easy to update.
+*   **Data-Driven Content:** The portfolio data is sourced from a `cv.json` file, making it easy to update and maintain.
+*   **Theming:** Includes a theming system with multiple themes to choose from.
+*   **Component-Based Architecture:** Built with reusable Astro components for different sections like Hero, About, Experience, Projects, and Skills.
+*   **Responsive Design:** The website is fully responsive and works on all devices.
+*   **Interactive UI:** Includes hover effects and animations to enhance user experience.
 
 ## Tech Stack
 
@@ -24,15 +25,19 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 *   Node.js (v22.x or later)
-*   npm
+*   npm or pnpm
 
 ### Installation
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/Anmol-TheDev/potfolio2.0
+    git clone https://github.com/CyberSphinxxx/lemar.dev
     ```
 2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+    or
     ```sh
     pnpm install
     ```
@@ -41,6 +46,10 @@ To get a local copy up and running, follow these simple steps.
 
 To run the development server, use the following command:
 
+```sh
+npm run dev
+```
+or
 ```sh
 pnpm run dev
 ```
