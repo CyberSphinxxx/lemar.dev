@@ -76,12 +76,21 @@
         "Organized technical study sessions, workshops, and programming activities.",
         "Managed developers assigned under PROGVAR division.",
         "Guided tech stacks, coding standards, and project direction.",
-        "Collaborated with other SITE leaders for event coordination and technical strategy."
+        "Collaborated with other SITE leaders for event coordination and technical strategy.",
+        "Led the team that won 1st place at the IEEE Smart Mobility Hackathon 2025 with the 'Smart Unmanned Submersible Rover for Coral Health Monitoring' project."
       ],
       "skills": {
         "JavaScript": "simple-icons:javascript",
         "React": "simple-icons:react",
-        "Node.js": "simple-icons:nodedotjs"
+        "Node.js": "simple-icons:nodedotjs",
+        "OpenCV": "simple-icons:opencv",
+        "YOLOv11": "simple-icons:yolo",
+        "Python": "simple-icons:python",
+        "Django": "simple-icons:django",
+        "Ultralytics": "simple-icons:ultralytics",
+        "Numpy": "simple-icons:numpy",
+        "HTML": "simple-icons:html5",
+        "CSS": "simple-icons:css3"
       }
     },
     {
