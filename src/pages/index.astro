@@ -18,14 +18,14 @@ import LogoWall from "@/components/sections/logoWall.astro";
     >
       <Hero className="col-span-2" />
       <About className="col-span-3" />
+      <LogoWall />
+      <Skills className="print:col-span-full" />
     </div>
     <div
       class="slide-enter-content space-y-12 md:col-span-1 print:grid print:grid-cols-5 print:grid-flow-row print:gap-2 print:space-y-0"
     >
       <Experience className="print:col-span-3" />
       <Projects className="print:hidden" />
-      <LogoWall />
-      <Skills className="print:col-span-full" />
     </div>
   </main>
 </Layout>

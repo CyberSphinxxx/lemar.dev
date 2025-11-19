@@ -71,7 +71,7 @@ const { city, region, address } = location
                   data-umami-event={`${network} click`}
                   id={network}
                 >
-                  <Icon name={icon} width={24} height={24} class='sm:grayscale sm:group-hover/social:grayscale-0 transition-all' style=`color: ${color};` aria-label={network}/>
+                  <Icon name={icon} width={24} height={24} class='sm:grayscale sm:group-hover/social:grayscale-0 transition-all' aria-label={network}/>
                 </a>
               )
             })
@@ -107,6 +107,12 @@ const { city, region, address } = location
 
   footer {
     @apply flex gap-1;
+  }
+  .group\/social a .icon {
+    color: #929AAB;
+  }
+  .group\/social a:hover .icon {
+    color: rgb(var(--color-button-accent-hover));
   }
   
 
