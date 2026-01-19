@@ -65,32 +65,49 @@
   "work": [
     {
       "name": "SITE (Society of Information Technology Enthusiasts)",
-      "position": "Technology Department Head / PROGVAR Head",
+      "position": "Technology Department Head",
       "url": "",
       "location_type": "Hybrid",
       "location": "Cagayan de Oro, PH",
       "startDate": "2025-08-01",
       "endDate": null,
-      "summary": "Leading the programming division (PROGVAR) of SITE and managing technical initiatives for university developer programs.",
+      "summary": "Overseeing the organization's technological landscape, managing infrastructure, and implementing strategic software solutions.",
       "responsibilities": [
-        "Organized technical study sessions, workshops, and programming activities.",
-        "Managed developers assigned under PROGVAR division.",
-        "Guided tech stacks, coding standards, and project direction.",
-        "Collaborated with other SITE leaders for event coordination and technical strategy.",
-        "Led the team that won 1st place at the IEEE Smart Mobility Hackathon 2025 with the 'Smart Unmanned Submersible Rover for Coral Health Monitoring' project."
+        "Manage the organization's technological infrastructure and resources.",
+        "Collaborate with other executive leaders for strategic event coordination.",
+        "Oversee software and data security protocols for the organization.",
+        "Develop innovative solutions to streamline organizational operations."
       ],
       "skills": {
         "JavaScript": "simple-icons:javascript",
         "React": "simple-icons:react",
         "Node.js": "simple-icons:nodedotjs",
-        "OpenCV": "simple-icons:opencv",
-        "YOLOv11": "simple-icons:yolo",
-        "Python": "simple-icons:python",
-        "Django": "simple-icons:django",
-        "Ultralytics": "simple-icons:ultralytics",
-        "Numpy": "simple-icons:numpy",
         "HTML": "simple-icons:html5",
         "CSS": "simple-icons:css3"
+      }
+    },
+    {
+      "name": "SITE (Society of Information Technology Enthusiasts)",
+      "position": "Programmers Varsity (PROGVAR) Head",
+      "url": "",
+      "location_type": "Hybrid",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2025-08-01",
+      "endDate": null,
+      "summary": "Leading the Programmers Varsity (PROGVAR) division and fostering technical excellence among student developers.",
+      "responsibilities": [
+        "Organized technical study sessions, workshops, and programming activities.",
+        "Managed developers assigned under PROGVAR division.",
+        "Guided tech stacks, coding standards, and project direction.",
+        "Led the team that won 1st place at the IEEE Smart Mobility Hackathon 2025 with the 'Smart Unmanned Submersible Rover for Coral Health Monitoring' project."
+      ],
+      "skills": {
+        "Python": "simple-icons:python",
+        "OpenCV": "simple-icons:opencv",
+        "YOLOv11": "simple-icons:yolo",
+        "Ultralytics": "simple-icons:ultralytics",
+        "Numpy": "simple-icons:numpy",
+        "Django": "simple-icons:django"
       }
     },
     {
@@ -102,8 +119,19 @@
       "startDate": "2024-09-01",
       "endDate": null,
       "summary": "Oversees IT operations and project development within GDGoC USTP, supporting community events and technical workshops.",
-      "responsibilities": [],
+      "responsibilities": [
+        "Develop innovative solutions for the organization.",
+        "Manage the organization's technological infrastructure.",
+        "Oversee software and data security protocols.",
+        "Share knowledge and technical expertise with the community."
+      ],
       "skills": {
+        "HTML": "simple-icons:html5",
+        "CSS": "simple-icons:css3",
+        "JavaScript": "simple-icons:javascript",
+        "React": "simple-icons:react",
+        "Tailwind CSS": "simple-icons:tailwindcss",
+        "Node.js": "simple-icons:nodedotjs",
         "Firebase": "simple-icons:firebase",
         "Docker": "mdi:docker",
         "Python": "simple-icons:python"
@@ -118,8 +146,30 @@
       "startDate": "2023-09-01",
       "endDate": "2024-09-01",
       "summary": "Acted as a bridge between students and the GDGoC community, promoting developer technologies and assisting in events.",
-      "responsibilities": [],
+      "responsibilities": [
+        "Acted as a liaison between the student body and the GDGoC community.",
+        "Promoted developer technologies and technical initiatives on campus.",
+        "Assisted in organizing and executing tech events and workshops."
+      ],
       "skills": {}
+    },
+    {
+      "name": "Liceo de Cagayan University",
+      "position": "Head Researcher",
+      "url": "",
+      "location_type": "Onsite",
+      "location": "Cagayan de Oro, PH",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Led research and development for impactful ICT projects receiving top academic recognition.",
+      "responsibilities": [
+        "Developed a 3D virtual tour system for the City Museum of Cagayan de Oro using Roblox Studio and Lua scripting.",
+        "Awarded 'Top Performing Study' among all ICT strand projects for technical implementation and research quality."
+      ],
+      "skills": {
+        "Lua": "simple-icons:lua",
+        "Roblox Studio": "simple-icons:roblox"
+      }
     },
     {
       "name": "Boy Scouts of the Philippines",
@@ -130,60 +180,438 @@
       "startDate": "2018-06-01",
       "endDate": null,
       "summary": "Guided and mentored a team of scouts, fostering growth, teamwork, and leadership skills while leading community initiatives.",
-      "responsibilities": [],
+      "responsibilities": [
+        "Mentored and guided a team of scouts, fostering personal growth.",
+        "Cultivated teamwork and leadership skills through structured activities.",
+        "Led community service initiatives and scouting projects."
+      ],
       "skills": {}
     }
   ],
   "education": [],
   "certificates": [],
   "skills": [
-    { "name": "Firebase", "icon": "simple-icons:firebase", "level": "Intermediate", "keywords": ["Backend", "Realtime", "Auth"], "category": "DevOps & Tools" },
-    { "name": "HTML", "icon": "simple-icons:html5", "level": "Advanced", "keywords": ["Frontend", "Web Development"], "category": "Web Development" },
-    { "name": "CSS", "icon": "ri:css3-fill", "level": "Advanced", "keywords": ["Frontend", "Web Design", "Responsive Design"], "category": "Web Development" },
-    { "name": "JavaScript", "icon": "simple-icons:javascript", "level": "Advanced", "keywords": ["Frontend", "Backend", "Web Apps"], "category": "Web Development" },
-    { "name": "TypeScript", "icon": "simple-icons:typescript", "level": "Intermediate", "keywords": ["Frontend", "Backend", "Web Development"], "category": "Web Development" },
-    { "name": "Astro", "icon": "simple-icons:astro", "level": "Intermediate", "keywords": ["Frontend", "Web Development", "Framework"], "category": "Web Development" },
-    { "name": "Python", "icon": "simple-icons:python", "level": "Advanced", "keywords": ["Backend", "Automation", "Computer Vision"], "category": "Programming Languages" },
-    { "name": "C", "icon": "simple-icons:c", "level": "Intermediate", "keywords": ["Programming", "Systems"], "category": "Programming Languages" },
-    { "name": "C++", "icon": "simple-icons:cplusplus", "level": "Intermediate", "keywords": ["Programming", "OOP"], "category": "Programming Languages" },
-    { "name": "Java", "icon": "ri:java-line", "level": "Intermediate", "keywords": ["Backend", "OOP"], "category": "Programming Languages" },
-    { "name": "PHP", "icon": "simple-icons:php", "level": "Intermediate", "keywords": ["Backend", "Web Development"], "category": "Programming Languages" },
-    { "name": "MySQL", "icon": "simple-icons:mysql", "level": "Intermediate", "keywords": ["Databases", "SQL"], "category": "Databases" },
-    { "name": "MongoDB", "icon": "simple-icons:mongodb", "level": "Intermediate", "keywords": ["NoSQL", "Database"], "category": "Databases" },
-    { "name": "React", "icon": "simple-icons:react", "level": "Advanced", "keywords": ["Frontend", "Web Apps"], "category": "Frameworks & Libraries" },
-    { "name": "Laravel", "icon": "simple-icons:laravel", "level": "Intermediate", "keywords": ["Backend", "PHP Framework"], "category": "Frameworks & Libraries" },
-    { "name": "Django", "icon": "simple-icons:django", "level": "Intermediate", "keywords": ["Backend", "Python Framework"], "category": "Frameworks & Libraries" },
-    { "name": "OpenCV", "icon": "simple-icons:opencv", "level": "Intermediate", "keywords": ["Computer Vision", "Image Processing"], "category": "Frameworks & Libraries" },
-    { "name": "Docker", "icon": "mdi:docker", "level": "Intermediate", "keywords": ["DevOps", "Containers"], "category": "DevOps & Tools" },
-    { "name": "Firebase", "icon": "simple-icons:firebase", "level": "Intermediate", "keywords": ["Backend", "Realtime", "Auth"], "category": "DevOps & Tools" },
-    { "name": "Postman", "icon": "simple-icons:postman", "level": "Intermediate", "keywords": ["API Testing", "Web Development"], "category": "DevOps & Tools" },
-    { "name": "Git", "icon": "mdi:git", "level": "Advanced", "keywords": ["Version Control", "Collaboration"], "category": "DevOps & Tools" },
-    { "name": "GitHub", "icon": "mdi:github", "level": "Advanced", "keywords": ["Version Control", "Source Code"], "category": "DevOps & Tools" },
-    { "name": "Vite", "icon": "simple-icons:vite", "level": "Intermediate", "keywords": ["Frontend", "Bundler"], "category": "DevOps & Tools" },
-    { "name": "npm", "icon": "simple-icons:npm", "level": "Intermediate", "keywords": ["Package Manager", "Frontend"], "category": "DevOps & Tools" },
-    { "name": "Linux", "icon": "simple-icons:linux", "level": "Intermediate", "keywords": ["OS", "Scripting", "Servers"], "category": "DevOps & Tools" },
-    { "name": "GitHub Actions", "icon": "simple-icons:githubactions", "level": "Intermediate", "keywords": ["CI/CD", "Automation"], "category": "DevOps & Tools" },
-    { "name": "Vercel", "icon": "simple-icons:vercel", "level": "Intermediate", "keywords": ["Deployment", "Hosting"], "category": "DevOps & Tools" },
-    { "name": "Notion", "icon": "simple-icons:notion", "level": "Intermediate", "keywords": ["Productivity", "Planning"], "category": "DevOps & Tools" },
-    { "name": "Figma", "icon": "simple-icons:figma", "level": "Intermediate", "keywords": ["Design", "UI/UX"], "category": "Design & 3D" },
-    { "name": "Photoshop", "icon": "simple-icons:adobephotoshop", "level": "Intermediate", "keywords": ["Graphics", "Design"], "category": "Design & 3D" },
-    { "name": "Premiere Pro", "icon": "simple-icons:adobepremierepro", "level": "Intermediate", "keywords": ["Video Editing"], "category": "Design & 3D" },
-    { "name": "Blender", "icon": "simple-icons:blender", "level": "Intermediate", "keywords": ["3D Modeling", "Design"], "category": "Design & 3D" },
-    { "name": "VSCode", "icon": "simple-icons:visualstudiocode", "level": "Advanced", "keywords": ["IDE", "Development"], "category": "DevOps & Tools" },
-    { "name": "PyCharm", "icon": "simple-icons:pycharm", "level": "Intermediate", "keywords": ["IDE", "Python"], "category": "DevOps & Tools" },
-    { "name": "IntelliJ IDEA", "icon": "simple-icons:intellijidea", "level": "Intermediate", "keywords": ["IDE", "Java"], "category": "DevOps & Tools" },
-    { "name": "Unity", "icon": "simple-icons:unity", "level": "Intermediate", "keywords": ["Game Development", "C#"], "category": "Game Development" },
-    { "name": "Unreal Engine", "icon": "simple-icons:unrealengine", "level": "Intermediate", "keywords": ["Game Development"], "category": "Game Development" },
-    { "name": "Godot", "icon": "simple-icons:godotengine", "level": "Intermediate", "keywords": ["Game Development"], "category": "Game Development" },
-    { "name": "WordPress", "icon": "simple-icons:wordpress", "level": "Intermediate", "keywords": ["CMS", "Web Development"], "category": "Web Development" },
-    { "name": "Arduino", "icon": "simple-icons:arduino", "level": "Intermediate", "keywords": ["Electronics", "IoT"], "category": "Programming Languages" }
+    {
+      "name": "Firebase",
+      "icon": "simple-icons:firebase",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Realtime",
+        "Auth"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Web Development"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Web Design",
+        "Responsive Design"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Web Apps"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "Intermediate",
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Web Development"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Frontend",
+        "Web Development",
+        "Framework"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "Automation",
+        "Computer Vision"
+      ],
+      "category": "Programming Languages"
+    },
+    {
+      "name": "C",
+      "icon": "simple-icons:c",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming",
+        "Systems"
+      ],
+      "category": "Programming Languages"
+    },
+    {
+      "name": "C++",
+      "icon": "simple-icons:cplusplus",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming",
+        "OOP"
+      ],
+      "category": "Programming Languages"
+    },
+    {
+      "name": "Java",
+      "icon": "ri:java-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "OOP"
+      ],
+      "category": "Programming Languages"
+    },
+    {
+      "name": "PHP",
+      "icon": "simple-icons:php",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Web Development"
+      ],
+      "category": "Programming Languages"
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL"
+      ],
+      "category": "Databases"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "Intermediate",
+      "keywords": [
+        "NoSQL",
+        "Database"
+      ],
+      "category": "Databases"
+    },
+    {
+      "name": "React",
+      "icon": "simple-icons:react",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Web Apps"
+      ],
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "Laravel",
+      "icon": "simple-icons:laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "PHP Framework"
+      ],
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "Django",
+      "icon": "simple-icons:django",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Python Framework"
+      ],
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "OpenCV",
+      "icon": "simple-icons:opencv",
+      "level": "Intermediate",
+      "keywords": [
+        "Computer Vision",
+        "Image Processing"
+      ],
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containers"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Firebase",
+      "icon": "simple-icons:firebase",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Realtime",
+        "Auth"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Postman",
+      "icon": "simple-icons:postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API Testing",
+        "Web Development"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Source Code"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Vite",
+      "icon": "simple-icons:vite",
+      "level": "Intermediate",
+      "keywords": [
+        "Frontend",
+        "Bundler"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "npm",
+      "icon": "simple-icons:npm",
+      "level": "Intermediate",
+      "keywords": [
+        "Package Manager",
+        "Frontend"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "Intermediate",
+      "keywords": [
+        "OS",
+        "Scripting",
+        "Servers"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "GitHub Actions",
+      "icon": "simple-icons:githubactions",
+      "level": "Intermediate",
+      "keywords": [
+        "CI/CD",
+        "Automation"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Vercel",
+      "icon": "simple-icons:vercel",
+      "level": "Intermediate",
+      "keywords": [
+        "Deployment",
+        "Hosting"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Notion",
+      "icon": "simple-icons:notion",
+      "level": "Intermediate",
+      "keywords": [
+        "Productivity",
+        "Planning"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Figma",
+      "icon": "simple-icons:figma",
+      "level": "Intermediate",
+      "keywords": [
+        "Design",
+        "UI/UX"
+      ],
+      "category": "Design & 3D"
+    },
+    {
+      "name": "Photoshop",
+      "icon": "simple-icons:adobephotoshop",
+      "level": "Intermediate",
+      "keywords": [
+        "Graphics",
+        "Design"
+      ],
+      "category": "Design & 3D"
+    },
+    {
+      "name": "Premiere Pro",
+      "icon": "simple-icons:adobepremierepro",
+      "level": "Intermediate",
+      "keywords": [
+        "Video Editing"
+      ],
+      "category": "Design & 3D"
+    },
+    {
+      "name": "Blender",
+      "icon": "simple-icons:blender",
+      "level": "Intermediate",
+      "keywords": [
+        "3D Modeling",
+        "Design"
+      ],
+      "category": "Design & 3D"
+    },
+    {
+      "name": "VSCode",
+      "icon": "simple-icons:visualstudiocode",
+      "level": "Advanced",
+      "keywords": [
+        "IDE",
+        "Development"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "PyCharm",
+      "icon": "simple-icons:pycharm",
+      "level": "Intermediate",
+      "keywords": [
+        "IDE",
+        "Python"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "icon": "simple-icons:intellijidea",
+      "level": "Intermediate",
+      "keywords": [
+        "IDE",
+        "Java"
+      ],
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Unity",
+      "icon": "simple-icons:unity",
+      "level": "Intermediate",
+      "keywords": [
+        "Game Development",
+        "C#"
+      ],
+      "category": "Game Development"
+    },
+    {
+      "name": "Unreal Engine",
+      "icon": "simple-icons:unrealengine",
+      "level": "Intermediate",
+      "keywords": [
+        "Game Development"
+      ],
+      "category": "Game Development"
+    },
+    {
+      "name": "Godot",
+      "icon": "simple-icons:godotengine",
+      "level": "Intermediate",
+      "keywords": [
+        "Game Development"
+      ],
+      "category": "Game Development"
+    },
+    {
+      "name": "WordPress",
+      "icon": "simple-icons:wordpress",
+      "level": "Intermediate",
+      "keywords": [
+        "CMS",
+        "Web Development"
+      ],
+      "category": "Web Development"
+    },
+    {
+      "name": "Arduino",
+      "icon": "simple-icons:arduino",
+      "level": "Intermediate",
+      "keywords": [
+        "Electronics",
+        "IoT"
+      ],
+      "category": "Programming Languages"
+    }
   ],
   "languages": [
-    { "language": "English", "fluency": "Fluent" },
-    { "language": "Tagalog", "fluency": "Native" },
-    { "language": "Bisaya", "fluency": "Native" }
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Tagalog",
+      "fluency": "Native"
+    },
+    {
+      "language": "Bisaya",
+      "fluency": "Native"
+    }
   ],
- "projects": [
+  "projects": [
     {
       "name": "Anisekai",
       "isActive": true,
@@ -211,15 +639,15 @@
       }
     },
     {
-      "name": "Magic Garden Bot",
+      "name": "Miru",
       "isActive": true,
-      "description": "An automated Python Discord game bot using OpenCV, pynput, numpy, and pyautogui with GUI and statistics tracking.",
+      "description": "A comprehensive anime streaming website featuring a modern UI, schedule tracking, and manga support.",
       "highlights": [],
-      "url": "https://github.com/CyberSphinxxx/Magic-Garden-Discord-Bot",
-      "github": "https://github.com/CyberSphinxxx/Magic-Garden-Discord-Bot",
+      "url": "https://github.com/CyberSphinxxx/Miru",
+      "github": "https://github.com/CyberSphinxxx/Miru",
       "stack": {
-        "Python": "simple-icons:python",
-        "OpenCV": "simple-icons:opencv"
+        "TypeScript": "simple-icons:typescript",
+        "React": "simple-icons:react"
       }
     },
     {
@@ -241,7 +669,7 @@
       "description": "Python app that performs real-time object detection using Ultralytics YOLO with Tkinter GUI and multi-monitor selection.",
       "highlights": [],
       "url": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
-       "github": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
+      "github": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
       "stack": {
         "Python": "simple-icons:python",
         "YOLO": "simple-icons:yolo"
