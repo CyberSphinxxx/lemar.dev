@@ -9,7 +9,7 @@
     "image": "/pfp.jpeg",
     "email": "johnlemargonzales@gmail.com",
     "url": "https://github.com/CyberSphinxxx/lemar.dev",
-    "summary": "Full Stack Developer and Student Leader building real projects while always improving. I focus on shipping useful solutions, learning modern technologies, and growing through hands-on work and community involvement.",
+    "summary": "Top 20 GitHub Committer in the Philippines. IT Lead at GDGoC USTP, and Technology Department & Programmers Varsity Head at SITE USTP CDO. I build high-performance web applications and AI-driven tools, leveraging modern stacks and local AI like Ollama and Whisper to create innovative, scalable solutions.",
     "theme": "platinum",
     "location": {
       "address": "Cagayan de Oro City",
@@ -613,8 +613,70 @@
   ],
   "projects": [
     {
-      "name": "Anisekai",
+      "name": "Miru",
       "isActive": true,
+      "description": "A comprehensive anime streaming website featuring a modern UI, schedule tracking, and manga support.",
+      "highlights": [],
+      "url": "https://miru-anime.vercel.app",
+      "github": "https://github.com/CyberSphinxxx/Miru",
+      "stack": {
+        "TypeScript": "simple-icons:typescript",
+        "React": "simple-icons:react"
+      }
+    },
+    {
+      "name": "CodeSplit",
+      "isActive": true,
+      "description": "A professional, browser-based integrated development environment (IDE) featuring a Monaco Editor instance with advanced productivity tools and instant live preview capabilities.",
+      "highlights": [],
+      "url": "https://codesplit-ph.vercel.app",
+      "github": "https://github.com/CyberSphinxxx/CodeSplit",
+      "stack": {
+        "React": "simple-icons:react",
+        "TypeScript": "simple-icons:typescript",
+        "Vite": "simple-icons:vite"
+      }
+    },
+    {
+      "name": "AnonyWall",
+      "isActive": true,
+      "description": "A modern, secure, and interactive web application that allows users to share thoughts, engage in discussions, and connect with a community while maintaining privacy.",
+      "highlights": [],
+      "url": "https://anonywall-ph.vercel.app",
+      "github": "https://github.com/SoftEng2025/The-Anonymous-Wall",
+      "stack": {
+        "React": "simple-icons:react",
+        "Vite": "simple-icons:vite"
+      }
+    },
+    {
+      "name": "TypeGlow",
+      "isActive": true,
+      "description": "An interactive typing practice tool designed to improve typing accuracy and speed with real-time feedback and a light-up keyboard interface.",
+      "highlights": [],
+      "url": "https://typeglow.vercel.app",
+      "github": "https://github.com/CyberSphinxxx/TypeGlow",
+      "stack": {
+        "HTML": "simple-icons:html5",
+        "CSS": "simple-icons:css3",
+        "JavaScript": "simple-icons:javascript"
+      }
+    },
+    {
+      "name": "StudentHub",
+      "isActive": true,
+      "description": "A productivity-focused web app helping students manage academics through a dashboard, schedule, task system, and Pomodoro timer. Built with TypeScript, HTML, CSS, and JS.",
+      "highlights": [],
+      "url": "https://studenthub-ustp.vercel.app",
+      "stack": {
+        "TypeScript": "simple-icons:typescript",
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill"
+      }
+    },
+    {
+      "name": "Anisekai",
+      "isActive": false,
       "description": "Anime-inspired mobile app built with React Native + Expo Router, offering a sleek, immersive anime-themed UI/UX.",
       "highlights": [],
       "url": "https://github.com/MobileProgramming-USTP/Anisekai",
@@ -626,46 +688,8 @@
       }
     },
     {
-      "name": "StudentHub",
-      "isActive": true,
-      "description": "A productivity-focused web app helping students manage academics through a dashboard, schedule, task system, and Pomodoro timer. Built with TypeScript, HTML, CSS, and JS.",
-      "highlights": [],
-      "url": "https://studenthub-ustp.vercel.app",
-      "github": "https://github.com/CyberSphinxxx/StudentHub",
-      "stack": {
-        "TypeScript": "simple-icons:typescript",
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill"
-      }
-    },
-    {
-      "name": "Miru",
-      "isActive": true,
-      "description": "A comprehensive anime streaming website featuring a modern UI, schedule tracking, and manga support.",
-      "highlights": [],
-      "url": "https://github.com/CyberSphinxxx/Miru",
-      "github": "https://github.com/CyberSphinxxx/Miru",
-      "stack": {
-        "TypeScript": "simple-icons:typescript",
-        "React": "simple-icons:react"
-      }
-    },
-    {
-      "name": "OtakuVerse",
-      "isActive": true,
-      "description": "OtakuVerse, your ultimate anime companion! Search for your favorite anime, add them to your watchlist, and dive into a world of memes, waifus, and more!",
-      "highlights": [],
-      "url": "otaku-verse-ebon.vercel.app",
-      "github": "https://github.com/CyberSphinxxx/OtakuVerse",
-      "stack": {
-        "HTML": "simple-icons:html5",
-        "CSS": "simple-icons:css3",
-        "Javascript": "simple-icons:javascript"
-      }
-    },
-    {
       "name": "AO Object Detector",
-      "isActive": true,
+      "isActive": false,
       "description": "Python app that performs real-time object detection using Ultralytics YOLO with Tkinter GUI and multi-monitor selection.",
       "highlights": [],
       "url": "https://github.com/CyberSphinxxx/Albion-Online-Object-Detection",
@@ -677,7 +701,7 @@
     },
     {
       "name": "Coral Vision",
-      "isActive": true,
+      "isActive": false,
       "description": "Django-based web app using YOLOv5 for real-time coral detection, classifying corals as healthy or bleached for research monitoring.",
       "highlights": [],
       "url": "https://github.com/USTP-CoralVision",
